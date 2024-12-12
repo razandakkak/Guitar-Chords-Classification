@@ -40,4 +40,4 @@ Converted audio files to a consistent format and sample rate using librosa and f
    Utilizes a lower learning rate for improved training stability.
 
 ## Results and Findings
-![Screenshot of Gradio Interface where it is predicting an uploaded audio.](https://myoctocat.com/assets/images/base-octocat.svg)
+![Screenshot of Gradio Interface where it is predicting an uploaded audio.](Screenshot 2024-12-12 122040.png) 
