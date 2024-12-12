@@ -1,7 +1,7 @@
 # 🎸 Bringing AI to Music: Classifying Guitar Chords with a Convolutional Neural Network (CNN)! 🎶
 The objective of this model is creating a CNN model that helps classify different guitar chords from this kaggle dataset: https://www.kaggle.com/datasets/fabianavinci/guitar-chords-v2
 
-# 📊 Pipeline Overview
+## 📊 Pipeline Overview
 1. Audio Data Preprocessing:
 Converted audio files to a consistent format and sample rate using librosa and ffmpeg.
 
@@ -21,7 +21,7 @@ Converted audio files to a consistent format and sample rate using librosa and f
 
    Achieved an impressive 95% validation accuracy, demonstrating the model’s ability to distinguish between chords like Am, C, G, and more. And 94% accuracy on testing dataset.
 
-# Model Architecture
+## Model Architecture
 - Data Augmentation and Generators:
   
    Uses ImageDataGenerator to preprocess spectrogram images for training, validation, and testing.
@@ -38,3 +38,6 @@ Converted audio files to a consistent format and sample rate using librosa and f
    Compiles the model with the Adam optimizer, sparse categorical cross-entropy loss, and accuracy as the evaluation metric.
   
    Utilizes a lower learning rate for improved training stability.
+
+## Results and Findings
+![Screenshot of Gradio Interface where it is predicting an uploaded audio.](https://myoctocat.com/assets/images/base-octocat.svg)
