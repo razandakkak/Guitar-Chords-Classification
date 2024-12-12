@@ -22,6 +22,9 @@ Converted audio files to a consistent format and sample rate using librosa and f
    Achieved an impressive 95% validation accuracy, demonstrating the model’s ability to distinguish between chords like Am, C, G, and more. And 94% accuracy on testing dataset.
 
 ## Model Architecture
+
+We built a CNN model from scratch that has the following characteristics:
+
 - Data Augmentation and Generators:
   
    Uses ImageDataGenerator to preprocess spectrogram images for training, validation, and testing.
@@ -38,6 +41,10 @@ Converted audio files to a consistent format and sample rate using librosa and f
    Compiles the model with the Adam optimizer, sparse categorical cross-entropy loss, and accuracy as the evaluation metric.
   
    Utilizes a lower learning rate for improved training stability.
+
+## Usage
+
+We provided two notebooks, one showcases the model's different phases and one for deployment. You have to have the model inside your drive in order to deploy it.
 
 ## Results and Findings
 ![Screenshot of Gradio Interface where it is predicting an uploaded audio.](https://github.com/razandakkak/Guitar-Chords-Classification/blob/add9470182b6bfca5826fa4d21622c9b28d714d2/Screenshot%202024-12-12%20122040.png) 
