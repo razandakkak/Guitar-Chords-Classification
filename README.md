@@ -40,4 +40,4 @@ Converted audio files to a consistent format and sample rate using librosa and f
    Utilizes a lower learning rate for improved training stability.
 
 ## Results and Findings
-![Screenshot of Gradio Interface where it is predicting an uploaded audio.](Screenshot 2024-12-12 122040.png) 
+![Screenshot of Gradio Interface where it is predicting an uploaded audio.](https://github.com/razandakkak/Guitar-Chords-Classification/blob/add9470182b6bfca5826fa4d21622c9b28d714d2/Screenshot%202024-12-12%20122040.png) 
