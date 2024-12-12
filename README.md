@@ -5,14 +5,16 @@ The objective of this model is creating a CNN model that helps classify differen
 1. Audio Data Preprocessing:
 Converted audio files to a consistent format and sample rate using librosa and ffmpeg.
 
-Extracted MFCC (Mel-frequency Cepstral Coefficients) features, which are crucial for capturing the spectral properties of audio signals.
+   Extracted MFCC (Mel-frequency Cepstral Coefficients) features, which are crucial for capturing the spectral properties of audio signals.
 
-Converted the audio files to spectrogram in order to feed them to the CNN model.
+   Converted the audio files to spectrogram in order to feed them to the CNN model.
+
 2. Model Architecture:
    
-Built a Convolutional Neural Network (CNN) using TensorFlow and Keras.
+   Built a Convolutional Neural Network (CNN) using TensorFlow and Keras.
 
-The model includes layers for feature extraction and classification, leveraging the CNN’s ability to identify patterns in MFCC data.
+   The model includes layers for feature extraction and classification, leveraging the CNN’s ability to identify patterns in MFCC data.
+
 3. Model Training and Evaluation:
 
 Trained the CNN on labeled datasets with guitar chords.
