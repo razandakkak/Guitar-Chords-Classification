@@ -28,13 +28,13 @@ Converted audio files to a consistent format and sample rate using librosa and f
   
    Rescales image pixel values and splits the training data into training and validation subsets.
 - CNN Model Architecture:
-- 
+  
   Builds a CNN model with three convolutional layers, max-pooling layers, and a dense layer for feature extraction and classification.
   Includes dropout regularization to reduce overfitting.
   
   Configures the output layer to classify into the number of chord classes based on the training dataset.
 - Model Compilation:
-- 
+  
    Compiles the model with the Adam optimizer, sparse categorical cross-entropy loss, and accuracy as the evaluation metric.
   
    Utilizes a lower learning rate for improved training stability.
